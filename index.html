@@ -55,9 +55,14 @@
                   <input type="text" class="wpcf7-text wpcf7-text--name" id="input-2" placeholder="Ваше имя">
                 </label>
               </div>
-              <div class="order-form__submit-wrapper">
-                <button class="wpcf7-submit">Отправить</button>
-                <p class="order-form__text">Отзыв будет добавлен после проверки модератором</p>
+              <div class="order-submit-area">
+                <div class="order-form__submit-wrapper">
+                  <input type="submit" value="Отправить" class="wpcf7-submit">
+                  <span class="ajax-loader"></span>
+                </div>
+                <div class="order-text">
+                  Отзыв будет добавлен после проверки модератором
+                </div>
               </div>
             </form>
           </div>
