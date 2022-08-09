@@ -5,6 +5,7 @@ body {
   line-height: 1.5;
   color: #000000;
   min-width: 1150px;
+  margin: 0;
 }
 
 .wrapper {
@@ -79,6 +80,11 @@ body {
   border-radius: 50%;
 }
 
+.reviews,
+.order {
+  background-color: #F4EFE2;
+}
+
 .review {
   display: flex;
   padding: 16px 0;
@@ -91,4 +97,99 @@ body {
 .review__name,
 .review__text {
   margin: 0;
+}
+
+.order {
+  padding-top: 81px;
+  padding-bottom: 56px;
+}
+
+.order__title {
+  color: #9F7303;
+  font-size: 32px;
+  line-height: 39px;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.order-form .wpcf7-text {
+  border: 1px solid #F5D581;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  height: 27px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.order-form .wpcf7-text::-webkit-input-placeholder {
+  color: #000000;
+  opacity: 0.3;
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.order-form .wpcf7-text::-moz-placeholder {
+  color: #000000;
+  opacity: 0.3;
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.order-form .wpcf7-text:-ms-input-placeholder {
+  color: #000000;
+  opacity: 0.3;
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.order-form .wpcf7-text:-moz-placeholder {
+  color: #000000;
+  opacity: 0.3;
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.order-form .wpcf7-text--review {
+  width: 1110px;
+  height: 160px;
+}
+
+.order-form .wpcf7-text--name {
+  width: 540px;
+  height: 64px;
+}
+
+.wpcf7-submit {
+  width: 285px;
+  height: 64px;
+  background: #9F7303;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.order-form__submit-wrapper {
+  display: flex;
+}
+
+.order-form__text {
+  width: 225px;
+  min-height: 36px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #000000;
+  opacity: 0.7;
+  padding-left: 16px;
 }
