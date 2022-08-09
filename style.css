@@ -256,31 +256,30 @@ body {
   color: #000000;
   display: flex;
   justify-content: center;
-  padding-top: 6px;
 }
 
 .menu-item {
-  margin-left: 40px;
   border-radius: 8px;
   min-height: 40px;
+  padding: 6px 22px 7px 23px;
+  box-sizing: border-box;
 }
 
-.menu-item--border {
+.current-menu-item {
   border: 1px solid #9F7303;
-  width: 191px;
+  /* width: 191px; */
 }
 
-.sub-menu .menu-item {
+.menu-item-has-children {
   margin: 0;
   margin-bottom: 23px;
 }
 
-.sub-menu .menu-item a {
+.menu-item-has-children a {
   justify-content: start;
-
 }
 
-.sub-menu .menu-item a:hover {
+.menu-item-has-children a:hover {
   color: #9F7303;
 }
 
